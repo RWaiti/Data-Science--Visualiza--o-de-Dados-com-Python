@@ -18,11 +18,13 @@ plt.plot(x1,y1, color = "#000000", linestyle = "--")
 #pontos do gráfico
 plt.scatter(x1, y1, label = "Meus Pontos", color = "k", marker = ".", s= z)
 
-
-
 plt.legend()
-plt.show()
-
+#Mostra o gráfico na Execução
+#plt.show()
+#Salva direito em figura - DPI = Pontos por Polegada, quanto maior o dpi maior a quantidade de pixels
+plt.savefig("figura1.png", dpi = 500)
+#Salva em formato pdf(vetor) - Pode alterar o zoom sem perder a resolução
+plt.savefig("figura1.pdf")
 
 '''
 Documentação Oficial MatplotLib
