@@ -1,0 +1,7 @@
+Human 18S rRNA gene, complete
+Fonte: https://www.ncbi.nlm.nih.gov/nuccore/M10098.1?report=fasta
+as human.fasta
+
+Escherichia coli strain U 5/41 16S ribosomal RNA gene, partial sequence
+Fonte: https://www.ncbi.nlm.nih.gov/nuccore/NR_024570.1?report=fasta
+as bacteria.fasta
